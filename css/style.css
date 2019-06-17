@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  width: 100%;
+  max-width: 1800px;
+}
+
+header {
+  width: 100%;
+  padding-top: 2%;
+}
+
+.left {
+  width: 23.404%;
+  float: left;
+  margin-right: 2.128%;
+}
+.center {
+  width: 48.936%;
+  float: left;
+  margin-right: 2.128%;
+}
+
+.right {
+  width: 23.404%;
+  float: right;
+}
+#tickets{
+    padding-top: 5%;
+    
+    
+}
+
+/*
+.third {
+    width: 30.851064%;
+    
+    
+   
+}
+.third:nth-child(1){
+     margin-right: 3.723404%;
+    float: left;
+   
+}
+.third:nth-child(2){
+     margin-right: 3.723404%;
+     
+    float:left;
+   
+}
+.third:nth-child(3){
+    float: right;
+}
+*/
+
+#logo {
+  height: 100px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  height: auto;
+  text-transform: uppercase;
+
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+nav ul {
+}
+
+nav li {
+  list-style: none;
+  width: 5.141844%%;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  display: inline;
+}
+
+nav li a {
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 3%;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  clear: both;
+  max-width: 100%;
+  padding: 10%;
+}
+main a {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: block;
+  color: black;
+}
+main p {
+  text-align: center;
+}
+/*
+aside {
+  display: block;
+  max-width: 100%;
+  align-items: center;
+}
+*/
+aside {
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+  display: block;
+}
+#videos{
+    display: block;
+    max-width: 100%;
+    align-content: center;
+   
+    text-align: center;
+    clear: both;
+    
+    
+}
+
+.listleft {
+  float: left;
+  width: 40%;
+}
+.listright {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+#full {
+  width: 80%;
+  background: url("../images/resume.png");
+  display: block;
+  height: 1056px;
+  width: 816px;
+  margin: auto;
+}
+.thumb {
+  float: left;
+}
+.thumb img {
+  width: 700px;
+  padding: 5%;
+  height: auto;
+}
+.asidetext {
+  padding-left: 40%;
+}
+.aside h1 {
+  float: right;
+  clear: both;
+}
+.aside p {
+  float: right;
+}
+
+.thumb2 {
+  float: right;
+}
+.thumb2 img {
+  width: 300px;
+  padding: 5%;
+  height: auto;
+}
+.asidetext2 {
+  padding-right: 40%;
+}
+.aside2 h1 {
+  float: left;
+  clear: both;
+}
+.aside2 p {
+  float: left;
+}
+
+.banner {
+  clear: both;
+  max-width: 100%;
+}
+
+.slides {
+  width: auto;
+}
+#paper {
+  background: url("../images/sf.jpg");
+  display: block;
+  height: 359px;
+  width: 480px;
+}
+
+footer {
+  clear: both;
+  border-top-style: solid;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+    text-decoration: none;
+}
+object {
+  width: auto;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #0c2b5e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/*++++++++++++++++++++++Typography++++++++++++++++++++++++++*/
+
+h1 {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+p {
+  line-height: 1.6;
+}
