@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 img {
@@ -34,17 +34,16 @@ header {
 .center {
   width: 48.936%;
   float: left;
-  margin-right: 2.128%;
+  /*  margin-right: 2.128%;*/
 }
 
 .right {
   width: 23.404%;
   float: right;
+  margin-left: 2.128%;
 }
-#tickets{
-    padding-top: 5%;
-    
-    
+#tickets {
+  padding-top: 5%;
 }
 
 /*
@@ -124,28 +123,85 @@ main a {
 main p {
   text-align: center;
 }
-/*
-aside {
+section {
+  clear: both;
+  max-width: 90%;
+  padding: 3%;
   display: block;
-  max-width: 100%;
-  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-*/
+section a {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: block;
+  color: black;
+}
+section p {
+  text-align: center;
+}
+
 aside {
+  overflow: hidden;
+  height: auto;
+  display: block;
+  padding-top: 1%;
+
+  /*
+padding-left: 10%;
+padding-right: 10%;
+
+*/
+}
+#aside1 {
+  width: 1%;
+}
+.asidetext {
+  /*  padding-left: 40%;
+*/
+}
+.aside h1 {
+  /*
+float: right;
+clear: both;
+
+*/
+}
+.aside p {
+  /* float: right;
+*/
+}
+.asidetext2 {
+  /*  padding-right: 40%;
+*/
+}
+.aside2 h1 {
+  /*
+  float: left;
+  clear: both;
+*/
+}
+.aside2 p {
+  /*  float: left;
+*/
+}
+article {
   max-width: 100%;
   overflow: hidden;
   height: auto;
   display: block;
 }
-#videos{
-    display: block;
-    max-width: 100%;
-    align-content: center;
-   
-    text-align: center;
-    clear: both;
-    
-    
+
+#videos {
+  display: block;
+  max-width: 100%;
+  align-content: center;
+
+  text-align: center;
+
+  clear: both;
+  padding-top: 3%;
 }
 
 .listleft {
@@ -174,16 +230,6 @@ aside {
   padding: 5%;
   height: auto;
 }
-.asidetext {
-  padding-left: 40%;
-}
-.aside h1 {
-  float: right;
-  clear: both;
-}
-.aside p {
-  float: right;
-}
 
 .thumb2 {
   float: right;
@@ -192,16 +238,6 @@ aside {
   width: 300px;
   padding: 5%;
   height: auto;
-}
-.asidetext2 {
-  padding-right: 40%;
-}
-.aside2 h1 {
-  float: left;
-  clear: both;
-}
-.aside2 p {
-  float: left;
 }
 
 .banner {
@@ -227,7 +263,7 @@ footer p {
   text-align: center;
 }
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 object {
   width: auto;
@@ -252,12 +288,35 @@ object {
 #myBtn:hover {
   background-color: #555;
 }
+.form-group {
+  text-align: center;
+  padding-top: 1%;
+}
+#contact {
+  /*    text-align: center;*/
+  /*  border-style: solid;
+*/
+}
 
 /*++++++++++++++++++++++Typography++++++++++++++++++++++++++*/
 
 h1 {
   text-align: center;
+  padding-bottom: 2%;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  padding-top: 3%;
   padding-bottom: 5%;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  text-transform: uppercase;
 }
 
 p {

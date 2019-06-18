@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Speakeasy Comedy Home</title>
+<title>Speakeasy Comedy In San Diego County</title>
 
 
 <!--Remy Sharp Shim --> 
@@ -12,6 +12,10 @@
 <![endif]-->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+     <meta name="description" content="Speakeasy Comedy provied 1920s theme comedy shows throughout San Diego County.">
+    
+    <meta name="keywords" content="comedy, speakeasy comedy, speakeasy comedy san diego">
+    
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -24,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+ 
     
     
     
@@ -85,8 +90,12 @@
 <!--Start  and MERN stack image-->
         
             <main>
+                <h1 class="tagline">ABOUT</h1>
+                <h4 class="punchline">Calling all bearcats, flappers, flaming youth, and sheiks! Come check out the most darb sockdollager in comedy, just don't inform the elephant ears! This is a bring your own giggle water affair. Don't be a dewdropper and get your tickets today. No bushwa, wurps, or bluenoses allowed!
                 
+                </h4>
         <h1 class="tagline">UPCOMING SHOW</h1>
+                
     
          <div class="punchline"><img src="images/speakeasyposterad.jpeg" alt="San Diego"/></div>
             <div id="tickets">
@@ -99,8 +108,9 @@
         <!--End and MERN stack image-->
        
         <!--Start Aside/Resume-->
-        <aside>
-        <div class="variable-width" id="photos">
+        <aside id="photos">
+            <h1>PICTURES FOR YOUR PEEPERS</h1>
+        <div class="variable-width" >
         
              
             
@@ -113,8 +123,8 @@
     
  
 
-            </div>
-       
+            
+       </div>
    </aside>
         
         <!--End Aside/Resume-->
@@ -131,36 +141,77 @@
         </aside>
 -->
         <aside>
+            
             <div id="videos">
-        <iframe width="840" height="472" src="https://www.youtube-nocookie.com/embed/AS1bLCd4pUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h1>Videos</h1>
+       <iframe width="840" height="472" src="https://www.youtube-nocookie.com/embed/AS1bLCd4pUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 
+<!--                <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/txe33/owvzou" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>-->
+                   
+<!--
+                <div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/txe33/owvzou" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                </div>
+                <div>
+                    <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/s/txe33/owvzou" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+                    </div>
+-->
+                    
                 </div>
         </aside>
         
    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         
     
-         <main class="headline" id="contact">
+         <section id="contact">
             
-        <h1 class="tagline">Contact</h1>
+        <h1>Contact</h1>
     
         <p class="punchline">
        
         
         
+           
+            <form action="formhandlers.php" method="post" >
+                <div class="form">
+                     
+               <div class="form-group">
+                   <h5>fill out this form</h5>
+                <label for="name">Name</label>
+                   <p>
+                <input type="name" class="form-control" id="name" name="name"></p>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label><p>
+                <input type="email" class="form-control" id="email" name="email"></p>
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label><p>
+                <input type="text" class="form-control" id="subject" name="subject"></p>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label><p>
+                <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea></p>
+              </div>
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+              </div>
+                    </div>
+            </form>
+             <h5> 
+            Drop us a dime on the amache</h5>
         <a href="tel:1-415-669-4898">415.669.4898</a>
             
-           
-            
+           <h5>
+            Message us by aeromail on the autogyro</h5>
         <a href="mailto:josephbeckcastro@gmail.com?Subject=" target="_top">josephbeckcastro@gmail.com</a>
-            
-            
-        There will be a contact form here
-             </p>
+        
+             
             
             
     
-    </main>
+    </section>
         
         
         
@@ -241,7 +292,7 @@
     <script>
 		ScrollReveal().reveal('.headline')
 		ScrollReveal().reveal('.tagline', { delay: 250 })
-		ScrollReveal().reveal('.punchline', { delay: 500 })
+		ScrollReveal().reveal('.punchline', { delay: 325 })
 	</script>
     
       <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -281,6 +332,15 @@
   cssEase: 'linear',
       
 });
+        $('.one-time').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+	
+       
     
     </script>
     <script>
