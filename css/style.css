@@ -83,6 +83,7 @@ nav {
   top: 0;
   z-index: 10;
   text-align: center;
+  position: fix;
 }
 nav ul {
 }
@@ -278,7 +279,7 @@ object {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #0c2b5e;
+  background-color: #f8052d;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -291,6 +292,13 @@ object {
 .form-group {
   text-align: center;
   padding-top: 1%;
+}
+.form-group2 {
+  align-items: center;
+  text-align: center;
+}
+.g-recaptcha {
+  display: inline-block;
 }
 #contact {
   /*    text-align: center;*/
