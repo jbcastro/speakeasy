@@ -9,15 +9,11 @@ img {
   display: block;
   max-width: 100%;
 }
-#unSlick {
-  display: none;
-}
 
 body {
   font-size: 100%;
   margin: 0;
   box-sizing: border-box;
-  background: black;
 }
 
 #container {
@@ -80,13 +76,6 @@ header {
   margin-right: auto;
 }
 
-#logo2 {
-  height: 100%;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 5%;
-}
 nav {
   height: auto;
   text-transform: uppercase;
@@ -113,7 +102,7 @@ nav li a {
   font-size: 1em;
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 3%;
 }
 nav li a:hover {
@@ -123,7 +112,7 @@ nav li a:hover {
 main {
   clear: both;
   max-width: 100%;
-  padding: 5%;
+  padding: 10%;
 }
 main a {
   text-decoration: none;
@@ -162,14 +151,9 @@ aside {
 
   /*
 padding-left: 10%;
-
+padding-right: 10%;
 
 */
-}
-#photos {
-  clear: all;
-  overflow: hidden;
-  display: block;
 }
 #aside1 {
   width: 1%;
@@ -211,24 +195,16 @@ article {
 }
 
 #videos {
-  width: 90%;
-
   display: block;
+  max-width: 100%;
+  align-content: center;
 
-  margin: auto;
-  padding-bottom: 10%;
-}
-#videos h1 {
-  padding-bottom: 3%;
+  text-align: center;
+
+  clear: both;
   padding-top: 3%;
 }
-#videos h2 {
-  padding-top: 5%;
-  padding-bottom: 0;
-}
-#frame h2 {
-  padding-bottom: 3%;
-}
+
 .listleft {
   float: left;
   width: 40%;
@@ -283,15 +259,12 @@ article {
 footer {
   clear: both;
   border-top-style: solid;
-  background-color: black;
 }
 footer p {
   text-align: center;
-  color: white;
 }
 footer a {
   text-decoration: none;
-  color: white;
 }
 object {
   width: auto;
@@ -306,7 +279,7 @@ object {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #f8052d;
+  background-color: #0c2b5e;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -319,211 +292,34 @@ object {
 .form-group {
   text-align: center;
   padding-top: 1%;
-  text-decoration-color: white;
-  color: white;
 }
-
-.form-group2 {
-  align-items: center;
-  text-align: center;
-}
-.g-recaptcha {
-  display: inline-block;
-}
-
 #contact {
   /*    text-align: center;*/
   /*  border-style: solid;
 */
 }
-.form-control {
-  background-color: white;
-  width: 300px;
-}
-.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #f8052d;
-  border: none;
-  border-radius: 15px;
-  /*  box-shadow: 0 9px #999;*/
-}
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.button a {
-  text-decoration: none;
-  color: white;
-  background-color: #f8052d;
-}
-
-.button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
 /*++++++++++++++++++++++Typography++++++++++++++++++++++++++*/
 
 h1 {
   text-align: center;
   padding-bottom: 2%;
-  color: white;
-  font-size: 2.441em;
 }
 h2 {
   text-align: center;
-  color: white;
-  font-size: 1.953em;
-}
-h3 {
-  text-align: center;
-  color: white;
-  font-size: 1.563em;
 }
 h4 {
   padding-top: 3%;
   padding-bottom: 5%;
   text-align: center;
-  color: white;
-  font-size: 1.25em;
 }
 h5 {
   text-align: center;
   padding-bottom: 1%;
   padding-top: 2%;
   text-transform: uppercase;
-  color: white;
 }
 
 p {
   line-height: 1.6;
-  color: white;
-}
-
-/*media queries*/
-
-@media only screen and (max-width: 1200px) {
-  body {
-  }
-  #logo {
-    width: 12%;
-  }
-  h1 {
-    font-size: 2.827em;
-  }
-  h2 {
-    font-size: 1.99em;
-  }
-  h3 {
-    font-size: 1.414em;
-  }
-  p {
-    font-size: 1em;
-  }
-  nav {
-    font-size: 90%;
-  }
-  .contact p {
-    padding-bottom: 5%;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
-  body {
-    font-size: 85%;
-  }
-  #wrapper {
-    width: auto;
-  }
-  #logo {
-    width: 13%;
-  }
-
-  nav {
-    font-size: 70%;
-  }
-  footer ul {
-    max-width: 1200px;
-    margin-left: auto;
-    font-size: 1em;
-  }
-
-  footer li {
-    height: 30px;
-    line-height: 30px;
-    float: right;
-  }
-}
-
-@media only screen and (max-width: 840px) {
-  body {
-    /*   background: yellow;
-*/
-  }
-  main {
-    width: 95%;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  #slickPics {
-    display: none;
-  }
-  #unSlick {
-    display: block;
-    padding: 3%;
-    margin-bottom: 10%;
-  }
-  .unSlickPics {
-    padding: 1%;
-  }
-  nav li {
-    list-style: none;
-    width: 5.141844%%;
-    position: none;
-    height: 20px;
-    line-height: 20px;
-    margin: auto;
-    display: inline;
-  }
-  .left {
-display: none;
-
-  }
-  .right {
-    display: none;
-  }
-  .center {
-    width: auto;
-    float: none;
-    position: sticky;
-  }
-  #myBtn1 {
-    display: none;
-  }
-  nav {
-  }
 }
