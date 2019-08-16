@@ -3,7 +3,9 @@
  $email = $_POST['email'];
  $subject = $_POST['subject'];
  $message = $_POST['message'];
-
+//$secretKey = 6LfjN6sUAAAAAC8C__pFW_Q_iT12DlAhA1Bx2N6K
+$secretKey = '6Lf2OKsUAAAAAAJZQgyexBVI0fb8wS2vzlFhV8iv';
+        $captcha = $_POST['g-recaptcha-response'];
 if(!$captcha){?>
     <script language="javascript" type="text/javascript">
         alert('Message not sent. Please Click ReCaptcha');
